@@ -4,7 +4,7 @@ This is my HW3 for MMED-1054 Multimedia Authoring 1 class in Fanshawe College.
 
 This is a Python Quiz of Marvel! Player will answer a few questions to determine what his or her character is, believe it or not.
 
-There are 4 questions and 3 characters to be chosen in this quiz.
+There are 4 questions and 4 characters to be chosen in this quiz.
 
 # Project Roadmap File
 [Project Roadmap Google Doc link](https://docs.google.com/document/d/1Q9ToV7yCE-aT_klrp0OutMBbLcFMoYXTkmy1t2bPsN8/edit?usp=sharing)
@@ -25,7 +25,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Contact
 
-Free feel to contact me if you want to work any fun project with me :)
+Free feel to contact me if you want to work any fun project with me :kissing_smiling_eyes:
 
 email: y_ngai@fanshaweonline.ca
 
