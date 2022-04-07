@@ -1,8 +1,6 @@
-from emoji import emojize
-
 questions = {
     "q1" : {
-        "question": "Are you a woman?:woman: [Y / N]",
+        "question": "Are you a woman? [Y / N]",
         "Y" : 200,
         "N" : 0
     },
@@ -20,7 +18,7 @@ questions = {
     },
 
     "q4" : {
-        "question" : "Do you like to stay home when it rains?:umbrella: [Y / N]",
+        "question" : "Do you like to stay home when it rains? [Y / N]",
         "Y" : 0,
         "N" : 10
     }

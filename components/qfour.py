@@ -2,14 +2,18 @@ from components import quizQuestions, vars
 from components.quizQuestions import questions
 from emoji import emojize
 
+woman = emojize(":woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman:\n")
+um = emojize(":umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella:\n")
+moj = emojize(":fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: \n")
+
 def quest():
 
     answer1 = questions["q1"][input(questions["q1"]["question"])]
     print(answer1)
 
     vars.quizTotal += answer1
-    moj = emojize(":fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire:\n")
-    print(moj)
+
+    print(woman)
 
 
     answer2 = questions["q2"][input(questions["q2"]["question"])]
@@ -30,4 +34,4 @@ def quest():
     print(answer4)
 
     vars.quizTotal += answer4
-    print(moj)
+    print(um)

@@ -1,11 +1,18 @@
 from components.quizQuestions import questions
 from components import vars, quizTally, qfour
-
+from progress.bar import Bar
 
 print("■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□")
-print("==============WELCOME TO THE MARVEL QUIZ===============")
-print("■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□")
-print("                                Are you ready ?? ^____^")
+print("■                                                     □")
+print("□ =========== WELCOME TO THE MARVEL QUIZ ============ ■")
+print("□                                                     ■")
+print("■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□" "\n")
+print("                                Are you ready ?? ^____^" "\n")
+
+bar = Bar('Processing', max=20)
+for i in range(20):
+    bar.next()
+bar.finish()
 
 qfour.quest()
 
