@@ -1,18 +1,20 @@
 from components.quizQuestions import questions
 from components import vars, quizTally, qfour
-from progress.bar import Bar
+from art import *
+from rich import print
 
-print("■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□")
-print("■                                                     □")
-print("□ =========== WELCOME TO THE MARVEL QUIZ ============ ■")
-print("□                                                     ■")
-print("■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□" "\n")
-print("                                Are you ready ?? ^____^" "\n")
 
-bar = Bar('Processing', max=20)
-for i in range(20):
-    bar.next()
-bar.finish()
+print("\n")
+tprint("HELLO !", font="random")
+print("[bold red]■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□[/bold red]")
+print("[bold magenta]■                                                     □[/bold magenta]")
+print("[bold magenta]□ =========== WELCOME TO THE MARVEL QUIZ ============ ■[/bold magenta]")
+print("[bold magenta]□                                                     ■[/bold magenta]")
+print("[bold red]■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□■□■□■■□■□■□■□■□[/bold red]" "\n")
+print("\n")
+tprint("Let's Do It !", font="random-small")
+
+
 
 qfour.quest()
 

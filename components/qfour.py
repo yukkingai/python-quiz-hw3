@@ -5,22 +5,20 @@ from emoji import emojize
 woman = emojize(":woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman: :woman:\n")
 um = emojize(":umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella: :umbrella:\n")
 moj = emojize(":fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire: \n")
+up = emojize(":thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up: :thumbs_up:")
 
 def quest():
-
     answer1 = questions["q1"][input(questions["q1"]["question"])]
     print(answer1)
-
     vars.quizTotal += answer1
-
-    print(woman)
-
+    print(up)
 
     answer2 = questions["q2"][input(questions["q2"]["question"])]
     print(answer2)
 
     vars.quizTotal += answer2
-    print(moj)
+
+    print(woman)
 
 
     answer3 = questions["q3"][input(questions["q3"]["question"])]
@@ -34,4 +32,11 @@ def quest():
     print(answer4)
 
     vars.quizTotal += answer4
+    print(moj)
+
+
+    answer5 = questions["q5"][input(questions["q5"]["question"])]
+    print(answer5)
+
+    vars.quizTotal += answer5
     print(um)
